@@ -15,10 +15,15 @@ img {
     max-width: 100%;
 }
 
+a {
+    text-decoration: none !important;
+    color: currentColor !important;
+}
+
 .container-main {
     background-color: white;
     max-width: 1450px; 
-    min-height: 87%;
+    min-height: 92%;
 
 }
 
@@ -34,5 +39,12 @@ header {
 }
 
 .propic {
-    border-right: 1px solid grey;
+    border-right: 1px solid #D7DBD6;
+}
+
+.chat__header > small {
+    margin-left: 66px;
+    margin-top: -23px;
+    font-size: 14px;
+}
 }
