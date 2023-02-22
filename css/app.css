@@ -111,6 +111,8 @@ header.main__header {
 }
 
 .chat-section {
+  display: flex;
+  flex-direction: column;
   background-image: url(../img/Sfondi-4K-PC.jpg) !important;
   background-size: cover;
   background-repeat: no-repeat;
@@ -122,15 +124,69 @@ header.main__header {
   width: 66.6%;
 }
 
+
 .chat__control {
   min-height: 30px;
   padding: 10px;
   background-color: #EAEAEA;
   color: #777;
   width: 89vw;
+  position: absolute;
+bottom: 0;
 }
 
 .msg__input {
   width: 90%;
   
 }
+
+.sender__message {
+  width: 50%;
+  text-align: right;
+  padding-right: 20px;
+  justify-content: flex-end;
+
+}
+
+.receive__message {
+  width: 50%;
+  text-align: left;
+  padding-left: 20px;
+  justify-content: flex-start;
+
+}
+
+.chat__msg {
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  position: relative;
+
+}
+
+.send {
+  background-color: #D5F9BA;
+}
+
+.receive {
+  background-color: white;
+}
+
+
+.sender__message, 
+.receive__message {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+
+.message-time {
+  font-size: 0.75rem;
+  color: #777;
+}
+
+
