@@ -1,90 +1,100 @@
 /* Divido il body con 2 colori */
-body{
-    width: 100%;
-    height: 100vh;
-    background: linear-gradient(
-      to top,
+body {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to top,
       #D7DBD6 85%,
       #009688 85%,
-      #009688 100%
-    );
-    overflow: hidden;
-  }
-  
-  img {
-    max-width: 100%;
-  }
-  
-  a {
-    text-decoration: none !important;
-    color: currentColor !important;
-  }
+      #009688 100%);
+      overflow: hidden;
+}
 
-  
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none !important;
+  color: currentColor !important;
+}
+
+.bg-color-lightgrey {
+  background-color: #EAEAEA;
+}
 
 ul,
 menu,
 li {
-    list-style: none;
+  list-style: none;
 }
-  
+
 .container-main {
   background-color: white;
+  position: relative;
   max-width: 1460px;
-  height: 93vh; 
+  height: 93vh;
   overflow: hidden;
+  height: calc(100vh - 45px);
+  padding: 0;
+  margin: 0;
+
 }
 
 .contacts {
-  height: calc(100% - 146px); 
-  overflow-y: scroll; 
+  height: calc(100% - 146px);
+  overflow-y: scroll;
+  width: 33.33333%;
+  padding: 0;
+  margin: 0;
 }
 
 
-  header.main__header {
-    background-color: #EAEAEA;
-    min-height: 45px;
-    overflow: hidden;
-  }
-  
-  .profile__pic {
-    width: 60px;
-    height: 60px;
-    object-fit: cover;
-  }
-  
-  .propic {
-    border-right: 1px solid #D7DBD6;
-  }
-  
-  .propic__icon {
-    color: #777 !important;
-  }
-  
-  .chat__header {
-    align-items: center;
-  }
-  
-  .chat__header a i {
-    color: #777;
-  }
-  
-  .notifiche {
-    background-color: #8EDAFC;
-    min-height: 45px;
-    width: calc(33.3% - 2px) !important; /* PERDONATEMI */
-  }
+header.main__header {
+  background-color: #EAEAEA;
+  min-height: 45px;
+  overflow: hidden;
+  z-index: 999;
+}
+
+.profile__pic {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+
+.propic {
+  border-right: 1px solid #D7DBD6;
+}
+
+.propic__icon {
+  color: #777 !important;
+}
+
+.chat__header {
+  align-items: center;
+}
+
+.chat__header a i {
+  color: #777;
+}
+
+.notifiche {
+  background-color: #8EDAFC;
+  min-height: 45px;
+  width: calc(33.3% - 2px) !important;
+  /* PERDONATEMI */
+}
 
 
-  .notifiche > i {
-    color: #8EDAFC !important;
+.notifiche>i {
+  color: #8EDAFC !important;
 
-  }
+}
 
-  .contacts  li{
-    border-bottom: 1px solid #EAEAEA;
-    min-height: 70px;
-  } 
+.contacts li {
+  border-bottom: 1px solid #EAEAEA;
+  min-height: 70px;
+}
 
 
 
@@ -93,10 +103,34 @@ li {
 }
 
 .search__contact {
-    border: 1px solid #D7DBD6;
-  }
+  border: 1px solid #D7DBD6;
+}
 
 .active {
-    background-color: #EAEAEA;
-  }
+  background-color: #EAEAEA;
+}
+
+.chat-section {
+  background-image: url(../img/Sfondi-4K-PC.jpg) !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 60px;
+  bottom: 0;
+  left: calc(33.33333% + 1px); 
+  overflow-y: scroll;
+  width: 66.6%;
+}
+
+.chat__control {
+  min-height: 30px;
+  padding: 10px;
+  background-color: #EAEAEA;
+  color: #777;
+  width: 89vw;
+}
+
+.msg__input {
+  width: 90%;
   
+}
