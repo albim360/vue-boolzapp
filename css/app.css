@@ -20,6 +20,7 @@ body{
     color: currentColor !important;
   }
 
+  
 
 ul,
 menu,
@@ -27,11 +28,18 @@ li {
     list-style: none;
 }
   
-  .container-main {
-    background-color: white;
-    max-width: 1460px;
-    min-height: 93%;
-  }
+.container-main {
+  background-color: white;
+  max-width: 1460px;
+  height: 93vh; 
+  overflow: hidden;
+}
+
+.contacts {
+  height: calc(100% - 146px); 
+  overflow-y: scroll; 
+}
+
 
   header.main__header {
     background-color: #EAEAEA;
@@ -67,19 +75,28 @@ li {
     width: calc(33.3% - 2px) !important; /* PERDONATEMI */
   }
 
-  .debug__width {
-  }
 
   .notifiche > i {
     color: #8EDAFC !important;
 
   }
 
+  .contacts  li{
+    border-bottom: 1px solid #EAEAEA;
+    min-height: 70px;
+  } 
 
-  
-  .search__contact {
+
+
+.debug__width {
+  width: 33.33333% !important;
+}
+
+.search__contact {
     border: 1px solid #D7DBD6;
   }
-  
 
+.active {
+    background-color: #EAEAEA;
+  }
   
