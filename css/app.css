@@ -9,42 +9,71 @@ body{
       #009688 100%
     );
     overflow: hidden;
-}
-
-img {
+  }
+  
+  img {
     max-width: 100%;
-}
-
-a {
+  }
+  
+  a {
     text-decoration: none !important;
     color: currentColor !important;
-}
-
-.container-main {
+  }
+  
+  .container-main {
     background-color: white;
     max-width: 1450px; 
     min-height: 92%;
-
-}
-
-header {
+  }
+  
+  header {
     background-color: #EAEAEA;
     min-height: 45px;
-}
-
-.profile__pic {
+  }
+  
+  .profile__pic {
     width: 60px;
     height: 60px;
     object-fit: cover;
-}
-
-.propic {
+  }
+  
+  .propic {
     border-right: 1px solid #D7DBD6;
-}
+  }
 
-.chat__header > small {
-    margin-left: 66px;
-    margin-top: -23px;
-    font-size: 14px;
-}
-}
+  .propic__icon {
+    color: #777 !important;
+  }
+  
+  .chat__header {
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .chat__header > div:last-child {
+    display: flex;
+    align-items: center;
+  }
+  
+  .chat__header a i {
+    color: #777;
+    padding: 0 2px;
+  }
+  
+  .main__header > .col-8 {
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+  }
+  
+  .main__header > .col-8 .flex-column {
+    margin-left: 15px;
+  }
+  
+  .main__header > .col-2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 15px;
+  }
+  
