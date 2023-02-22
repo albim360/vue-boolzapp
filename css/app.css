@@ -1,0 +1,21 @@
+/* Divido il body con 2 colori */
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(
+      to top,
+      #D7DBD6 85%,
+      #009688 85%,
+      #009688 100%
+    );
+    overflow: hidden;
+}
+
+.container-main {
+    margin: 20px auto;
+    padding: 40px;
+    background-color: white;
+    max-width: 1450px; 
+    min-height: 80%;
+
+}
