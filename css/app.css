@@ -22,13 +22,14 @@ body{
   
   .container-main {
     background-color: white;
-    max-width: 1450px; 
+    max-width: 1450px;
     min-height: 92%;
   }
   
-  header {
+  header.main__header {
     background-color: #EAEAEA;
     min-height: 45px;
+    overflow: hidden;
   }
   
   .profile__pic {
@@ -40,14 +41,13 @@ body{
   .propic {
     border-right: 1px solid #D7DBD6;
   }
-
+  
   .propic__icon {
     color: #777 !important;
   }
   
   .chat__header {
     align-items: center;
-    justify-content: space-between;
   }
   
   .chat__header > div:last-child {
@@ -75,5 +75,10 @@ body{
     justify-content: flex-end;
     align-items: center;
     padding-right: 15px;
+  }
+  
+  .notifiche {
+    background-color: #8EDAFC;
+    min-height: 45px;
   }
   
