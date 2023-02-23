@@ -91,6 +91,7 @@ const app = createApp({
             },
           ],
         },
+        
         {
           name: "Giulia",
           avatar: "./img/dogegg.jpg",
@@ -142,25 +143,40 @@ const app = createApp({
           ],
         },
       ],
+      inputValue: '',
     };
   },
-
   methods: {
     setActive(index) {
       this.activeIndex = index;
       this.activeContact = this.contacts[index];
       let messages = this.activeContact.messages;
       this.sentMessage = messages[messages.length - 1];
-    
+  
       // Aggiorna il nome del contatto e la foto del profilo
       const contactName = document.querySelector('.propic span');
-      contactName.innerText = this.activeContact.name;
+      if (contactName) {
+        contactName.innerText = this.activeContact.name;
+      }
       const profilePic = document.querySelector('.propic img');
-      profilePic.src = this.activeContact.avatar;
+      if (profilePic) {
+        profilePic.src = this.activeContact.avatar;
+      }
+    },    
+    sendMessage() {
+      let inputText = this.inputValue.trim();
+      if (inputText === '') {
+        return;
+      }
+      const currentDate = new Date().toISOString().slice(0, 10);
+      this.contacts[this.activeIndex].messages.push({
+        date: currentDate,
+        message: inputText,
+        status: 'sent',
+      });
+      this.inputValue = ''
     }    
-  },
-  
-
+      },
   directives: {
     "message-class": {
       mounted(el, binding) {
@@ -169,7 +185,6 @@ const app = createApp({
       },
     },
   },
-
   mounted() {
     this.setActive(this.activeIndex);
   },
