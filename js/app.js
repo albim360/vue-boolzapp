@@ -97,17 +97,17 @@ const app = createApp({
           visible: true,
           messages: [
             {
-              date: "19/02/2023 15:00:00",
+              date: "2023-02-19 15:00:00",
               message: "Ciao, mi puoi aiutare con il mio nuovo progetto?",
               status: "received",
             },
             {
-              date: "19/02/2023 16:00:00",
+              date: "2023-02-19 16:00:00",
               message: "Certo, fammi sapere cosa ti serve",
               status: "sent",
             },
             {
-              date: "19/02/2023 16:30:00",
+              date: "2023-02-19 16:30:00",
               message: "Grazie mille, sei sempre disponibile!",
               status: "received",
             },
