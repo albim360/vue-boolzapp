@@ -28,6 +28,10 @@ li {
   list-style: none;
 }
 
+.w-87 {
+  width: 87%;
+}
+
 .container-main {
   background-color: white;
   position: relative;
@@ -97,7 +101,6 @@ header.main__header {
 }
 
 
-
 .debug__width {
   width: 33.33333% !important;
 }
@@ -155,23 +158,30 @@ bottom: 0;
   justify-content: flex-start;
 
 }
+.chat__messages {
+  display: flex;
+  flex-direction: column;
+}
 
 .chat__msg {
+  margin: 10px;
   padding: 10px;
   border-radius: 10px;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
   position: relative;
-
+  display: block;
+  max-width: 43%;
 }
 
-.send {
+.sent {
+  align-self: flex-end;
   background-color: #D5F9BA;
 }
 
-.receive {
+.received {
+  align-self: flex-start;
   background-color: white;
 }
-
 
 .sender__message, 
 .receive__message {
