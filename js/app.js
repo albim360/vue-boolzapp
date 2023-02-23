@@ -91,8 +91,293 @@ const app = createApp({
               status: "received",
             },
           ],
+        },  
+        {
+          name: "Giulia",
+          avatar: "./img/dogegg.jpg",
+          visible: true,
+          messages: [
+            {
+              date: "2023-02-19 15:00:00",
+              message: "Ciao, mi puoi aiutare con il mio nuovo progetto?",
+              status: "received",
+            },
+            {
+              date: "2023-02-19 16:00:00",
+              message: "Certo, fammi sapere cosa ti serve",
+              status: "sent",
+            },
+            {
+              date: "2023-02-19 16:30:00",
+              message: "Grazie mille, sei sempre disponibile!",
+              status: "received",
+            },
+          ],
         },
-        
+        {
+          name: "Giulia",
+          avatar: "./img/dogegg.jpg",
+          visible: true,
+          messages: [
+            {
+              date: "2023-02-19 15:00:00",
+              message: "Ciao, mi puoi aiutare con il mio nuovo progetto?",
+              status: "received",
+            },
+            {
+              date: "2023-02-19 16:00:00",
+              message: "Certo, fammi sapere cosa ti serve",
+              status: "sent",
+            },
+            {
+              date: "2023-02-19 16:30:00",
+              message: "Grazie mille, sei sempre disponibile!",
+              status: "received",
+            },
+          ],
+        },
+        {
+          name: "Giulia",
+          avatar: "./img/dogegg.jpg",
+          visible: true,
+          messages: [
+            {
+              date: "2023-02-19 15:00:00",
+              message: "Ciao, mi puoi aiutare con il mio nuovo progetto?",
+              status: "received",
+            },
+            {
+              date: "2023-02-19 16:00:00",
+              message: "Certo, fammi sapere cosa ti serve",
+              status: "sent",
+            },
+            {
+              date: "2023-02-19 16:30:00",
+              message: "Grazie mille, sei sempre disponibile!",
+              status: "received",
+            },
+          ],
+        },
+        {
+          name: "Giulia",
+          avatar: "./img/dogegg.jpg",
+          visible: true,
+          messages: [
+            {
+              date: "2023-02-19 15:00:00",
+              message: "Ciao, mi puoi aiutare con il mio nuovo progetto?",
+              status: "received",
+            },
+            {
+              date: "2023-02-19 16:00:00",
+              message: "Certo, fammi sapere cosa ti serve",
+              status: "sent",
+            },
+            {
+              date: "2023-02-19 16:30:00",
+              message: "Grazie mille, sei sempre disponibile!",
+              status: "received",
+            },
+          ],
+        },
+        {
+          name: "Giulia",
+          avatar: "./img/dogegg.jpg",
+          visible: true,
+          messages: [
+            {
+              date: "2023-02-19 15:00:00",
+              message: "Ciao, mi puoi aiutare con il mio nuovo progetto?",
+              status: "received",
+            },
+            {
+              date: "2023-02-19 16:00:00",
+              message: "Certo, fammi sapere cosa ti serve",
+              status: "sent",
+            },
+            {
+              date: "2023-02-19 16:30:00",
+              message: "Grazie mille, sei sempre disponibile!",
+              status: "received",
+            },
+          ],
+        },
+        {
+          name: "Giulia",
+          avatar: "./img/dogegg.jpg",
+          visible: true,
+          messages: [
+            {
+              date: "2023-02-19 15:00:00",
+              message: "Ciao, mi puoi aiutare con il mio nuovo progetto?",
+              status: "received",
+            },
+            {
+              date: "2023-02-19 16:00:00",
+              message: "Certo, fammi sapere cosa ti serve",
+              status: "sent",
+            },
+            {
+              date: "2023-02-19 16:30:00",
+              message: "Grazie mille, sei sempre disponibile!",
+              status: "received",
+            },
+          ],
+        },
+        {
+          name: "Giulia",
+          avatar: "./img/dogegg.jpg",
+          visible: true,
+          messages: [
+            {
+              date: "2023-02-19 15:00:00",
+              message: "Ciao, mi puoi aiutare con il mio nuovo progetto?",
+              status: "received",
+            },
+            {
+              date: "2023-02-19 16:00:00",
+              message: "Certo, fammi sapere cosa ti serve",
+              status: "sent",
+            },
+            {
+              date: "2023-02-19 16:30:00",
+              message: "Grazie mille, sei sempre disponibile!",
+              status: "received",
+            },
+          ],
+        },
+        {
+          name: "Giulia",
+          avatar: "./img/dogegg.jpg",
+          visible: true,
+          messages: [
+            {
+              date: "2023-02-19 15:00:00",
+              message: "Ciao, mi puoi aiutare con il mio nuovo progetto?",
+              status: "received",
+            },
+            {
+              date: "2023-02-19 16:00:00",
+              message: "Certo, fammi sapere cosa ti serve",
+              status: "sent",
+            },
+            {
+              date: "2023-02-19 16:30:00",
+              message: "Grazie mille, sei sempre disponibile!",
+              status: "received",
+            },
+          ],
+        },
+        {
+          name: "Giulia",
+          avatar: "./img/dogegg.jpg",
+          visible: true,
+          messages: [
+            {
+              date: "2023-02-19 15:00:00",
+              message: "Ciao, mi puoi aiutare con il mio nuovo progetto?",
+              status: "received",
+            },
+            {
+              date: "2023-02-19 16:00:00",
+              message: "Certo, fammi sapere cosa ti serve",
+              status: "sent",
+            },
+            {
+              date: "2023-02-19 16:30:00",
+              message: "Grazie mille, sei sempre disponibile!",
+              status: "received",
+            },
+          ],
+        },
+        {
+          name: "Giulia",
+          avatar: "./img/dogegg.jpg",
+          visible: true,
+          messages: [
+            {
+              date: "2023-02-19 15:00:00",
+              message: "Ciao, mi puoi aiutare con il mio nuovo progetto?",
+              status: "received",
+            },
+            {
+              date: "2023-02-19 16:00:00",
+              message: "Certo, fammi sapere cosa ti serve",
+              status: "sent",
+            },
+            {
+              date: "2023-02-19 16:30:00",
+              message: "Grazie mille, sei sempre disponibile!",
+              status: "received",
+            },
+          ],
+        },
+        {
+          name: "Giulia",
+          avatar: "./img/dogegg.jpg",
+          visible: true,
+          messages: [
+            {
+              date: "2023-02-19 15:00:00",
+              message: "Ciao, mi puoi aiutare con il mio nuovo progetto?",
+              status: "received",
+            },
+            {
+              date: "2023-02-19 16:00:00",
+              message: "Certo, fammi sapere cosa ti serve",
+              status: "sent",
+            },
+            {
+              date: "2023-02-19 16:30:00",
+              message: "Grazie mille, sei sempre disponibile!",
+              status: "received",
+            },
+          ],
+        },
+        {
+          name: "Giulia",
+          avatar: "./img/dogegg.jpg",
+          visible: true,
+          messages: [
+            {
+              date: "2023-02-19 15:00:00",
+              message: "Ciao, mi puoi aiutare con il mio nuovo progetto?",
+              status: "received",
+            },
+            {
+              date: "2023-02-19 16:00:00",
+              message: "Certo, fammi sapere cosa ti serve",
+              status: "sent",
+            },
+            {
+              date: "2023-02-19 16:30:00",
+              message: "Grazie mille, sei sempre disponibile!",
+              status: "received",
+            },
+          ],
+        },
+        {
+          name: "Giulia",
+          avatar: "./img/dogegg.jpg",
+          visible: true,
+          messages: [
+            {
+              date: "2023-02-19 15:00:00",
+              message: "Ciao, mi puoi aiutare con il mio nuovo progetto?",
+              status: "received",
+            },
+            {
+              date: "2023-02-19 16:00:00",
+              message: "Certo, fammi sapere cosa ti serve",
+              status: "sent",
+            },
+            {
+              date: "2023-02-19 16:30:00",
+              message: "Grazie mille, sei sempre disponibile!",
+              status: "received",
+            },
+          ],
+        },
         {
           name: "Giulia",
           avatar: "./img/dogegg.jpg",
@@ -168,14 +453,14 @@ const app = createApp({
       if (!this.inputValue) {
         return;
       }
-      this.activeContact.messages.push({
+      this.activeContact.messages.unshift({
         message: this.inputValue,
         date: new Date(),
         status: 'sent'
       });
       this.inputValue = '';
       setTimeout(() => {
-        this.activeContact.messages.push({
+        this.activeContact.messages.unshift({
           message: 'Ok, addio.',
           date: new Date(),
           status: 'received'

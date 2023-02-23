@@ -155,7 +155,7 @@ header.main__header {
 }
 .chat__messages {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   overflow-y: scroll;
   height: 94%;
 }
@@ -168,6 +168,7 @@ header.main__header {
   position: relative;
   display: block;
   max-width: 43%;
+  overflow: visible;
 }
 
 .sent {
