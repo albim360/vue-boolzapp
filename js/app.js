@@ -164,19 +164,24 @@ const app = createApp({
       }
     },    
     sendMessage() {
-      let inputText = this.inputValue.trim();
-      if (inputText === '') {
+      if (!this.inputValue) {
         return;
       }
-      const currentDate = new Date().toISOString().slice(0, 10);
-      this.contacts[this.activeIndex].messages.push({
-        date: currentDate,
-        message: inputText,
-        status: 'sent',
+      this.activeContact.messages.push({
+        message: this.inputValue,
+        date: new Date(),
+        status: 'sent'
       });
-      this.inputValue = ''
-    }    
-      },
+      this.inputValue = '';
+      setTimeout(() => {
+        this.activeContact.messages.push({
+          message: 'Ok',
+          date: new Date(),
+          status: 'received'
+        });
+      }, 1000);
+    }
+  },
   directives: {
     "message-class": {
       mounted(el, binding) {
