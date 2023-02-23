@@ -151,8 +151,15 @@ const app = createApp({
       this.activeContact = this.contacts[index];
       let messages = this.activeContact.messages;
       this.sentMessage = messages[messages.length - 1];
-    },
+    
+      // Aggiorna il nome del contatto e la foto del profilo
+      const contactName = document.querySelector('.propic span');
+      contactName.innerText = this.activeContact.name;
+      const profilePic = document.querySelector('.propic img');
+      profilePic.src = this.activeContact.avatar;
+    }    
   },
+  
 
   directives: {
     "message-class": {

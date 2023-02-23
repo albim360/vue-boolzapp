@@ -100,11 +100,6 @@ header.main__header {
   min-height: 70px;
 }
 
-
-.debug__width {
-  width: 33.33333% !important;
-}
-
 .search__contact {
   border: 1px solid #D7DBD6;
 }
