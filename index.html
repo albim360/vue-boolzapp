@@ -48,8 +48,8 @@
     <section class="chat-section d-flex bg-color-lightgrey flex-nowrap">
       <div class="chat__messages">
         <span v-for="message in activeContact.messages" class="chat__msg" :class="message.status">
-          {{ message.message }}
-          <span class="message-time text-end">{{ message.date }}</span>
+          {{ message.message }} <br>
+          <span class="message-time text-end align-self-end">{{ new Date(message.date).toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'}) }}</span>
         </span>      
         <div class="chat__control w-100 align-self-end d-flex flex-nowrap">
           <a href="#">

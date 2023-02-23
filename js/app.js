@@ -12,12 +12,12 @@ const app = createApp({
           visible: true,
           messages: [
             {
-              date: "22/02/2023 10:45:00",
+              date: "2023-02-23 10:45:00",
               message: "Vorrei una seduta",
               status: "sent",
             },
             {
-              date: "20/02/2023 10:46:00",
+              date: "2023-02-23 10:46:00",
               message: "Ripijatiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii",
               status: "received",
             },
@@ -29,12 +29,12 @@ const app = createApp({
           visible: true,
           messages: [
             {
-              date: "22/02/2023 10:45:00",
+              date: "2023-02-23 10:45:00",
               message: "Vorrei una seduta",
               status: "sent",
             },
             {
-              date: "20/02/2023 10:46:00",
+              date: "2023-02-23 10:46:00",
               message: "Ripijatiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii",
               status: "received",
             },
@@ -46,12 +46,12 @@ const app = createApp({
           visible: true,
           messages: [
             {
-              date: "22/02/2023 10:45:00",
+              date: "2023-02-23 10:45:00",
               message: "Vorrei una seduta",
               status: "sent",
             },
             {
-              date: "20/02/2023 10:46:00",
+              date: "2023-02-23 10:46:00",
               message: "Ripijatiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii",
               status: "received",
             },
@@ -63,12 +63,12 @@ const app = createApp({
           visible: true,
           messages: [
             {
-              date: "22/02/2023 10:45:00",
+              date: "2023-02-23 10:45:00",
               message: "Vorrei una seduta",
               status: "sent",
             },
             {
-              date: "20/02/2023 10:46:00",
+              date: "2023-02-23 10:46:00",
               message: "Ripijatiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii",
               status: "received",
             },
@@ -80,12 +80,12 @@ const app = createApp({
           visible: true,
           messages: [
             {
-              date: "22/02/2023 10:45:00",
+              date: "2023-02-23 10:45:00",
               message: "Vorrei una seduta..",
               status: "sent",
             },
             {
-              date: "20/02/2023 10:46:00",
+              date: "2023-02-23 10:46:00",
               message: "Ripijatiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii",
               status: "received",
             },
@@ -119,22 +119,22 @@ const app = createApp({
           visible: true,
           messages: [
             {
-              date: "18/02/2023 10:00:00",
+              date: "2023-02-18 10:00:00",
               message: "Ciao, come va?",
               status: "received",
             },
             {
-              date: "18/02/2023 10:30:00",
+              date: "2023-02-18 10:30:00",
               message: "Sto bene, grazie! E tu?",
               status: "sent",
             },
             {
-              date: "18/02/2023 11:00:00",
+              date: "2023-02-18 11:00:00",
               message: "Anch'io grazie, Che programmi hai per oggi?",
               status: "received",
             },
             {
-              date: "18/02/2023 11:30:00",
+              date: "2023-02-18 11:30:00",
               message:
                 "Niente di particolare, forse andrò a fare una passeggiata, Tu?",
               status: "sent",

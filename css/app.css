@@ -197,6 +197,7 @@ bottom: 0;
 .message-time {
   font-size: 0.75rem;
   color: #777;
+  display: block;
 }
 
 
