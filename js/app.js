@@ -176,7 +176,7 @@ const app = createApp({
       this.inputValue = '';
       setTimeout(() => {
         this.activeContact.messages.push({
-          message: 'Ok',
+          message: 'Ok, addio.',
           date: new Date(),
           status: 'received'
         });
