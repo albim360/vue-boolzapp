@@ -79,10 +79,10 @@
       <span class="search__contact p-2">
         <i class="fa-sharp fa-solid fa-magnifying-glass p-1 "></i>
         <input type="text" name="" id="" class="border-0 border rounded-1 msg__input p-1"
-          placeholder="Cerca o inizia una nuova chat">
+        placeholder="Cerca o inizia una nuova chat" v-model="searchText">      
       </span>
       <ul class="p-0 m-0">
-        <li v-for="(contact, index) in contacts" :key="index" :class="{ active: activeIndex === index }"
+        <li v-for="(contact, index) in filteredContacts" :key="index" :class="{ active: activeIndex === index }"
           @click="setActive(index)">
           <div class="d-flex align-items-center ">
             <img :src="contact.avatar" alt="" class="rounded-circle p-2 profile__pic">
@@ -92,7 +92,7 @@
             </div>
           </div>
         </li>
-      </ul>
+      </ul>      
     </div>
   </div>
   </div>

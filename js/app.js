@@ -3,6 +3,7 @@ const app = createApp({
   data() {
     return {
       sentMessage: null,
+      searchText: '',
       activeContact: {},
       activeIndex: 0,
       contacts: [
@@ -190,7 +191,14 @@ const app = createApp({
       },
     },
   },
-  mounted() {
+  computed: {
+    filteredContacts() {
+      return this.contacts.filter(contact => {
+        return contact.name.toLowerCase().includes(this.searchText.toLowerCase());
+      });
+    },
+  },  
+ mounted() {
     this.setActive(this.activeIndex);
   },
 }).mount("#app");
