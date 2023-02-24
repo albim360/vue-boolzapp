@@ -47,7 +47,7 @@
     </header>
     <section class="chat-section d-flex bg-color-lightgrey flex-nowrap">
       <div class="chat__messages">
-        <span v-for="message in activeContact.messages" class="chat__msg" :class="message.status">
+        <span v-for="message in activeContact.messages" class="chat__msg" :class="message.status" >
           {{ message.message }}
           <span class="message-time text-end align-self-end">{{ new Date(message.date).toLocaleTimeString([], {hour:
             '2-digit', minute:'2-digit'}) }}</span>
@@ -88,7 +88,7 @@
             <img :src="contact.avatar" alt="" class="rounded-circle p-2 profile__pic">
             <div class="d-flex flex-column ms-3">
               <span class="fs-5">{{ contact.name }}</span>
-              <small class="text-muted">{{ contact.messages[0].message }}</small>
+              <small class="text-muted">{{ contact.messages && contact.messages.slice(-1)[0].message }}</small>
             </div>
           </div>
         </li>

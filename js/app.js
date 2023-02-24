@@ -1,3 +1,7 @@
+const scrollContainer = document.getElementsByClassName('chat__msg')[0];
+scrollContainer.scrollTop = scrollContainer.scrollHeight;
+
+
 const { createApp } = Vue;
 const app = createApp({
   data() {
@@ -115,18 +119,18 @@ const app = createApp({
           ],
         },
         {
-          name: "Giulia",
-          avatar: "./img/dogegg.jpg",
+          name: "Elija",
+          avatar: "./img/Profile_-_Stitch.webp",
           visible: true,
           messages: [
             {
               date: "2023-02-19 15:00:00",
-              message: "Ciao, mi puoi aiutare con il mio nuovo progetto?",
+              message: "Ho paura di Non riconoscerti mai piu Non credo piu alle favole Non credo piu alle favole",
               status: "received",
             },
             {
               date: "2023-02-19 16:00:00",
-              message: "Certo, fammi sapere cosa ti serve",
+              message: "No",
               status: "sent",
             },
             {
@@ -432,6 +436,14 @@ const app = createApp({
       inputValue: '',
     };
   },
+  watch: {
+    messages() {
+      this.$nextTick(() => {
+        const scrollContainer = this.$refs.scrollContainer;
+        scrollContainer.scrollTop = scrollContainer.scrollHeight;
+      });
+    },
+  },
   methods: {
     setActive(index) {
       this.activeIndex = index;
@@ -453,20 +465,30 @@ const app = createApp({
       if (!this.inputValue) {
         return;
       }
-      this.activeContact.messages.unshift({
+      const activeMessages = this.activeContact.messages;
+      const newMessage = {
         message: this.inputValue,
         date: new Date(),
         status: 'sent'
-      });
+      };
+      activeMessages.push(newMessage);
       this.inputValue = '';
       setTimeout(() => {
-        this.activeContact.messages.unshift({
-          message: 'Ok, addio.',
+        activeMessages.push({
+          message: '...',
           date: new Date(),
           status: 'received'
         });
+        setTimeout(() => {
+          activeMessages.pop(); // per rimuovere i 3 puntini
+          activeMessages.push({
+            message: 'Ok, addio.',
+            date: new Date(),
+            status: 'received'
+          });
+        }, 1000);
       }, 1000);
-    }
+    }    
   },
   directives: {
     "message-class": {
